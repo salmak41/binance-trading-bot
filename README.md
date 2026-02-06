@@ -1,14 +1,27 @@
 # Binance Futures Testnet Trading Bot
 
-A simplified Python-based trading bot that places **Market** and **Limit** orders on the **Binance Futures Testnet (USDT-M)** using a clean, modular, and production-ready project structure.
+A Python-based CLI trading bot that places **Market** and **Limit** orders on the **Binance Futures Testnet (USDT-M)** with proper structure, logging, and error handling.
 
-This project was built as part of a Python Developer application task and demonstrates:
+---
 
-- Structured and reusable code
-- CLI-based user interaction
-- Proper validation and error handling
-- File-based logging of API activity
-- Real order execution on Binance Futures **Testnet**
+## Objective
+
+Build a simplified but production-style trading bot that:
+
+- Places MARKET and LIMIT orders  
+- Supports BUY and SELL sides  
+- Accepts validated CLI input  
+- Logs API requests, responses, and errors  
+- Provides clean modular code structure  
+
+---
+
+## Tech Stack
+
+- Python 3.x  
+- python-binance  
+- argparse (CLI handling)  
+- logging  
 
 ---
 
@@ -61,27 +74,7 @@ cd trading_bot
 
 ---
 
-### 2. Create virtual environment (recommended)
-
-```bash
-python -m venv venv
-```
-
-Activate:
-
-**Windows**
-```bash
-venv\Scripts\activate
-```
-
-**Mac/Linux**
-```bash
-source venv/bin/activate
-```
-
----
-
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -89,7 +82,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4. Configure Binance Testnet API Keys
+### 3. Configure Binance Testnet API Keys
 
 1. Open Binance Futures Testnet  
    https://testnet.binancefuture.com
@@ -166,15 +159,6 @@ Example logs generated for:
 
 ---
 
-## 🛠 Technologies Used
-
-- Python 3.x
-- python-binance
-- argparse
-- logging
-
----
-
 ## 📧 Submission Contents
 
 This repository contains:
@@ -183,3 +167,4 @@ This repository contains:
 - README with setup & usage
 - requirements.txt
 - Generated log files
+
