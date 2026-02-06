@@ -1,0 +1,2 @@
+2026-02-06 17:52:57,861 - ERROR - Order failed: APIError(code=-2014): API-key format invalid.
+2026-02-06 17:56:15,088 - ERROR - Binance API error: APIError(code=-2014): API-key format invalid.
